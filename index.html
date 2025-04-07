@@ -4,197 +4,408 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Alaa Hassain Portfolio</title>
+    <title>Alaa Hassain | Full Stack Developer</title>
     <link rel="icon" href="Image/portfolio-icon.jpg">
     <script src="https://kit.fontawesome.com/94b000067e.js" crossorigin="anonymous"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <nav class="nav">
-        <a href="#"><i class="fa-solid fa-house"></i></a>
-        <a href="#about"><i class="fa-solid fa-circle-info"></i></a>
-        <a href="#skills"><i class="fa-solid fa-code"></i></a>
-        <a href="#my_work"><i class="fa-solid fa-laptop-code"></i></a>
-        <a href="#cert"><i class="fa-solid fa-calendar-days"></i></a>
-        <a href="#last"><i class="fa-solid fa-phone"></i></a>
-
+        <a href="#" title="Home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about" title="About Me"><i class="fa-solid fa-circle-info"></i></a>
+        <a href="#skills" title="Skills"><i class="fa-solid fa-code"></i></a>
+        <a href="#my_work" title="Projects"><i class="fa-solid fa-laptop-code"></i></a>
+        <a href="#cert" title="Experience"><i class="fa-solid fa-calendar-days"></i></a>
+        <a href="#contact" title="Contact"><i class="fa-solid fa-phone"></i></a>
     </nav>
     
-    <div class="body">
-        <header class="header">
-          <div class="my_img"></div>
-          <h1>Alaa Hassain</h1>
-          <h2>Full Stack Web Developer</h2>
-          <div class="header_cont">
-            <a href="https://github.com/AlaaHasain"><i class="fa-brands fa-github firsti"></i></a>
-            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin firsti"></i></a>
-          </div>
-          <div class="header_info">
-             <a href="#last"> <div class="btn">
-                <i class="fa-solid fa-envelope"></i>
-                Contact me
-            </div></a>
-              <a href="AlaaHassainResume.pdf"><div class="btn">
-                <i class="fa-solid fa-file-arrow-down"></i>
-                Download CV
-            </div></a>
-          </div>
+    <div class="container">
+        <header class="header" id="home">
+            <div class="header-content">
+                <div class="profile-container">
+                    <div class="my_img"></div>
+                </div>
+                <div class="intro">
+                    <h1>Alaa Hassain</h1>
+                    <div class="typewriter">
+                        <h2 class="typewriter-text">Full Stack Web Developer</h2>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/AlaaHasain" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-github social-icon"></i></a>
+                        <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin social-icon"></i></a>
+                        <a href="https://www.facebook.com/share/18xrvwRXe5/?mibextid=wwXIfr" target="_blank" aria-label="Facebook Profile"><i class="fa-brands fa-facebook social-icon"></i></a>
+                        <a href="https://www.instagram.com/alaah.98?igsh=NHE1Zjdqb2wzMHY2" target="_blank" aria-label="Instagram Profile"><i class="fa-brands fa-instagram social-icon"></i></a>
+                        <a href="https://wa.me/+962796990562" target="_blank" aria-label="WhatsApp Contact"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn">
+                            <i class="fa-solid fa-envelope"></i>
+                            Contact me
+                        </a>
+                        <a href="AlaaHassainResume.pdf" class="btn secondary-btn" download>
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
         </header>
 
-
-        <main class="about" id="about">
-            <h2 class="about_tit"> Hello !!</h2>
-            <br>
-            <p class="about_txt">
-                I'm a web developer and web applications enthusiast, passionate about entrepreneurship and driven to innovate creative solutions that bridge modern technology with user experience.
-                <br><br>
-                With in-depth knowledge in front-end and back-end development, I am committed to enhancing web and application experiences through advanced technologies.
-                <br><br>    
-                I believe that mobile applications and websites can revolutionize user interactions. I aim to create enhancements that improve performance and engagement on websites and web applications.
-            </p>
-        </main>
-
-        <div class="skills" id="skills">
-            <h2 class="skills_tit"> My Skills <i class="fa-solid fa-code"></i></h2>
-            <div class="skill1 skl">
-                <h3>Frontend Developer</h3>
-                <ol style="width: 80%;">
-                    <li>Languages:
-                        <ul>
-                            <li>HTML5, CSS3, JavaScript.</li>
-                        </ul>
-                    </li>
-                    <br>
-                    <li>Frameworks:
-                        <ul>
-                            <li>
-                                <i></i>
-                                React, 
-                                <i></i>
-                                Angular, 
-                                <i></i>
-                                Vue.js.</li>
-                        </ul>
-                    </li>
-                    <br>
-                    <li>
-                        Skills:
-                        <ul>
-                            <li>Responsive Web Design.</li>
-                            <li> <i></i>User Experience (UX) optimization.</li>
-                            <li> <i></i>Styling tools: Tailwind CSS, Bootstrap, SCSS.</li>
-                        </ul>
-                    </li>
-                </ol>
+        <section class="about" id="about">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-underline"></div>
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a web developer and web applications enthusiast, passionate about entrepreneurship and driven to innovate creative solutions that bridge modern technology with user experience.
+                    </p>
+                    <p class="about-text">
+                        With in-depth knowledge in front-end and back-end development, I am committed to enhancing web and application experiences through advanced technologies.
+                    </p>
+                    <p class="about-text">
+                        I believe that mobile applications and websites can revolutionize user interactions. I aim to create enhancements that improve performance and engagement on websites and web applications.
+                    </p>
+                </div>
             </div>
+        </section>
 
+        <section class="skills" id="skills">
+            <div class="section-container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-underline"></div>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <div class="skill-content">
+                            <div class="skill-group">
+                                <h4>Languages</h4>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Frameworks</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Angular</li>
+                                    <li>Vue.js</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Tools</h4>
+                                <ul>
+                                    <li>Responsive Web Design</li>
+                                    <li>UX Optimization</li>
+                                    <li>Tailwind CSS, Bootstrap, SCSS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <div class="skill-content">
+                            <div class="skill-group">
+                                <h4>Languages</h4>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>PHP</li>
+                                    <li>Java</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Frameworks</h4>
+                                <ul>
+                                    <li>Node.js</li>
+                                    <li>Laravel</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Databases</h4>
+                                <ul>
+                                    <li>MySQL, PostgreSQL</li>
+                                    <li>MongoDB, Firebase</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-
-            <div class="skill2 skl">
-                <h3>Backend Developer</h3>
-                <br>
-                <ol style="width: 80%;">
-                    <li>Languages & Tools:
-                        <ul>
-                            <li><i></i>
-                                JavaScript,
-                                <i></i> PHP, jav</li>
-                        </ul>
-                    </li>
-                    <br>
-                    <li>Frameworks:
-                        <ul>
-                            <li>
-                                <i></i>
-                                Node.js,
-                                <i></i>
-                                Laravel
-                        </ul>
-                    </li>
-                    <br>
-                    <li>
-                        API Development:
-                        <ul>
-                            <li>RESTful API.</li>
-                            <li>GraphQL.</li>
-                        </ul>
-                    </li>
-                    <br>
-                    <li>
-                        Databases:
-                        <ul>
-                            <li>Relational: MySQL, PostgreSQL.</li>
-                            <li>Non-Relational: MongoDB, Firebase.</li>
-                           
-                    </li>
-                </ol>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h3>Soft Skills</h3>
+                        <div class="skill-content">
+                            <div class="skill-item">
+                                <h4>Critical Thinking</h4>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Problem-Solving</h4>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Time Management</h4>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Quick Learning</h4>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="skill3 skl">
-                <h3>Soft Skills</h3>
-                <br>
-                <dl style="width: 80%;">
-                    <dt>Critical:</dt>
-                    <dd>Ability to analyze complex problems and develop efficient solutions.</dd>
-                    <dt>Problem-Solving:</dt>
-                    <dd>Quickly identifying and resolving technical challenges.</dd>
-                    <dt>Time Management:</dt>
-                    <dd>Organizing tasks and meeting deadlines effectively.</dd>
-                    <dt>Quick Learning:</dt>
-                    <dd>Adapting to new tools, frameworks, and environments rapidly.</dd>
-                  </dl>
+        </section>
+
+       <!-- استبدل قسم المشاريع الحالي بهذا الكود -->
+<section class="my_work" id="my_work">
+    <div class="section-container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="section-underline"></div>
+        
+        <!-- أزرار تصفية المشاريع -->
+        <div class="project-filter">
+            <button class="filter-btn" data-filter="web">Web Development</button>
+        </div>
+        
+        <div class="projects-container">
+            <!-- مشروع 1 -->
+            <div class="project-card" data-category="web">
+                <div class="project-img" style="background-image: url('Image/project1.jpg')"></div>
+                <div class="project-info">
+                    <h3>HTML Trainee Project</h3>
+                    <p>A responsive website showcasing fundamental HTML and CSS skills with modern design principles.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="http://127.0.0.1:5501/1Control%20Page/control-page.html" class="project-link" target="_blank">
+                            <i class="fa-solid fa-eye"></i> View Demo
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fa-brands fa-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- مشروع 2 -->
+            <div class="project-card" data-category="web">
+                <div class="project-img" style="background-image: url('Image/project2.jpg')"></div>
+                <div class="project-info">
+                    <h3>Juice Shop</h3>
+                    <p>An e-commerce platform for a juice shop with product catalog, shopping cart and payment integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="http://127.0.0.1:5502/index.html" class="project-link" target="_blank">
+                            <i class="fa-solid fa-eye"></i> View Demo
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fa-brands fa-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- مشروع 3 (اختياري) -->
+            <div class="project-card" data-category="ui">
+                <div class="project-img" style="background-image: url('Image/project-placeholder.jpg')"></div>
+                <div class="project-info">
+                    <h3>Portfolio Redesign</h3>
+                    <p>UI/UX design for a modern, responsive portfolio website with dark theme.</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                        <span>Dark Mode</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fa-solid fa-eye"></i> View Design
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- مشروع إضافي -->
+            <div class="project-card add-project">
+                <div class="add-project-content">
+                    <i class="fa-solid fa-plus"></i>
+                    <p>More projects coming soon</p>
+                </div>
             </div>
         </div>
-
-        <article class="my_work" id="my_work">
-            <h2>My Projects <i class="fa-solid fa-code"></i></h2>
-          <div class="project"><h2>Coming Soon</h2></div>
-          <div class="project"><h2>Coming Soon</h2></div>
-        </article>
-
-        
-        <article class="cert" id="cert">
-            <h2>Time Line <i class="fa-regular fa-clock"></i></h2>
-            <div class="cer">
-                <div class="img1"></div>
-                <h2>Al-Zaytoonah University</h2>
-                <h4>Computer Information System <br> 2016-2022</h4>
-                
-            </div>
-            <div class="cer">
-                <div class="img2"></div>
-                <h2>Lemongrass Resturent</h2>
-                <h4>Assistant Manger <br> 2019 - 2025</h4>
-            </div>
-            <div class="cer">
-                <div class="img4"></div>
-                <h2>Orange Academy</h2>
-                <h4>Full Stack Web Development trainee <br> 2025 - present
-            </div>
-         </article>
-
-
-         <section class="last" id="last">
-            <div class="email">
-                <h2>Contact Us <i class="fa-solid fa-envelope"></i></h2>
-                <input type="text" placeholder=" Full Name" class="lst">
-                <input type="Email" placeholder=" Email-Adress" class="lst">
-                <input type="Phone" placeholder=" Phone Number" class="lst">
-                <input type="text" placeholder=" Massege" class="lst">
-                <input type="button" value="Submite" class="lst">
-            </div>
-         </section>
-
-        <footer class="Contact">
-            <p>Alaa Mahmoud Hassain</p>
-            <p><a href="mailto:alaahassain9@gmail.com">alaahassain9@gmail.com</a></p>
-            <p><a href="https://github.com/AlaaHasain"><i class="fa-brands fa-github lasti"></i></a>
-               <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin lasti"></i></a> </p>
-
-        </footer>
-
     </div>
-    
+</section>
+
+        <section class="timeline experience" id="cert">
+            <div class="section-container">
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="section-underline"></div>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-logo">
+                                    <div class="img4"></div>
+                                </div>
+                                <h3>Orange Academy</h3>
+                                <h4>Full Stack Web Development Trainee</h4>
+                                <p>Learning advanced web development technologies and building real-world projects with industry standards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2019 - 2025</div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-logo">
+                                    <div class="img2"></div>
+                                </div>
+                                <h3>Lemongrass Restaurant</h3>
+                                <h4>Assistant Manager</h4>
+                                <p>Managed staff, coordinated operations, and improved customer service processes while developing leadership skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2016 - 2022</div>
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-logo">
+                                    <div class="img1"></div>
+                                </div>
+                                <h3>Al-Zaytoonah University</h3>
+                                <h4>Bachelor's in Computer Information Systems</h4>
+                                <p>Studied database systems, software engineering, network principles, and developed foundational programming skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-underline"></div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope contact-icon"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:alaahassain9@gmail.com">alaahassain9@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone contact-icon"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+962796990562">+962 796 990 562</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Amman, Jordan</p>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://github.com/AlaaHasain" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/share/18xrvwRXe5/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/alaah.98?igsh=NHE1Zjdqb2wzMHY2" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://wa.me/+962796990562" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Alaa Hassain</h3>
+                    <p>Full Stack Web Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#my_work">Projects</a>
+                    <a href="#cert">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/AlaaHasain" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/18xrvwRXe5/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/alaah.98?igsh=NHE1Zjdqb2wzMHY2" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+962796990562" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Alaa Hassain. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#home" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
 </body>
 </html>
